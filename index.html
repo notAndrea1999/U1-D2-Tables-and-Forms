@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <table border="2">
+      <caption>
+        La nostra tabella
+      </caption>
+      <tr>
+        <th>Nome</th>
+        <th>Cognome</th>
+        <th>Eta'</th>
+        <th>Telefono</th>
+        <th>Indirizzo</th>
+      </tr>
+      <tr>
+        <td>Stefano</td>
+        <td>Miceli</td>
+        <td>33</td>
+        <td>123456789</td>
+        <td>Via delle Rose 45</td>
+      </tr>
+    </table>
+    <table border="2" cellpadding="20" cellspacing="10">
+      <tr>
+        <th colspan="5">Intestazione</th>
+      </tr>
+      <tr>
+        <td rowspan="3">Categoria</td>
+        <td>elemento</td>
+        <td>elemento</td>
+        <td>elemento</td>
+        <td>elemento</td>
+      </tr>
+      <tr>
+        <td>elemento</td>
+        <td>elemento</td>
+        <td>elemento</td>
+        <td>elemento</td>
+      </tr>
+      <tr>
+        <td>elemento</td>
+        <td>elemento</td>
+        <td>elemento</td>
+        <td>elemento</td>
+      </tr>
+      <tbody></tbody>
+      <tfoot>
+        <td colspan="5">EPICODE</td>
+      </tfoot>
+    </table>
+
+    <hr />
+    <form>
+      <fieldset>
+        <legend>Type your email</legend>
+        <label for="my-email">Email</label>
+        <input id="my-email" type="email" placeholder="Inserisci la tua Email" />
+      </fieldset>
+      <br />
+      <label for="my-password">Password</label>
+      <input id="my-password" type="password" placeholder="Inserisci la tua password" />
+      <hr />
+      <fieldset>
+        <legend>Fumatori</legend>
+        <label for="smoking">Si</label>
+        <input id="smoking" type="radio" name="smoking-btn" />
+        <label for="no-smoking">No</label>
+        <input id="no-smoking" type="radio" name="smoking-btn" />
+      </fieldset>
+      <hr />
+      <label for="webcam">Webcam Accesa</label>
+      <input id="webcam" type="checkbox" />
+      <hr />
+      <label for="description">Descriviti in breve</label>
+      <br />
+      <textarea id="description" rows="6" placeholder="Ciao mi chiamo..."></textarea>
+      <hr />
+
+      <label for="location">Regione</label>
+      <select id="location">
+        <optgroup label="Nord">
+          <option>Lombardia</option>
+          <option>Friuli Venezia Giulia</option>
+          <option>Veneto</option>
+        </optgroup>
+        <optgroup label="Centro">
+          <option>Lazio</option>
+          <option>Marche</option>
+          <option>Toscana</option>
+        </optgroup>
+        <optgroup label="Sud">
+          <option>Calabria</option>
+          <option>Puglia</option>
+          <option>Sardegna</option>
+        </optgroup>
+      </select>
+      <hr />
+      <button type="submit">Torna indietro</button>
+      <button type="reset">Cancella i dati</button>
+      <button type="submit">Invia i dati</button>
+      <hr />
+      <hr />
+    </form>
+    <iframe
+      width="460"
+      height="215"
+      src="https://www.youtube.com/embed/zBjRjaOp5l4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    >
+    </iframe>
+    <br />
+    <iframe
+      width="100%"
+      height="615"
+      src="https://epicode.com/it/"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    >
+    </iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11883.716797684057!2d12.58400967199424!3d41.87286971792174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f629469de9c45%3A0xf90059329659dec9!2sVia%20dei%20Colombi%2C%20145%2C%2000169%20Roma%20RM!5e0!3m2!1sit!2sit!4v1687858649234!5m2!1sit!2sit"
+      width="100%"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <div class="bg"></div>
+    <div class="bg"></div>
+    <div class="bg"></div>
+    <div class="bg"></div>
+    <div class="bg"></div>
+    <div class="bg"></div>
+  </body>
+</html>
